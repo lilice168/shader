@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 80d22572697bf4384bc695ab21660d37
+timeCreated: 1452096606
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: HBone001
+    100004: HBone002
+    100006: Head
+    100008: LeftHand
+    100010: LFBone001
+    100012: LFBone002
+    100014: LFBone003
+    100016: LFoot
+    100018: LHand
+    100020: LHBone001
+    100022: LHBone002
+    100024: LHBone003
+    100026: RFBone001
+    100028: RFBone002
+    100030: RFBone003
+    100032: RFoot
+    100034: RHand
+    100036: RHBone001
+    100038: RHBone002
+    100040: RHBone003
+    100042: RightHand
+    100044: //RootNode
+    400000: Body
+    400002: HBone001
+    400004: HBone002
+    400006: Head
+    400008: LeftHand
+    400010: LFBone001
+    400012: LFBone002
+    400014: LFBone003
+    400016: LFoot
+    400018: LHand
+    400020: LHBone001
+    400022: LHBone002
+    400024: LHBone003
+    400026: RFBone001
+    400028: RFBone002
+    400030: RFBone003
+    400032: RFoot
+    400034: RHand
+    400036: RHBone001
+    400038: RHBone002
+    400040: RHBone003
+    400042: RightHand
+    400044: //RootNode
+    2300000: Body
+    2300002: Head
+    2300004: LeftHand
+    2300006: LFoot
+    2300008: LHand
+    2300010: RFoot
+    2300012: RHand
+    2300014: RightHand
+    3300000: Body
+    3300002: Head
+    3300004: LeftHand
+    3300006: LFoot
+    3300008: LHand
+    3300010: RFoot
+    3300012: RHand
+    3300014: RightHand
+    4300000: Head
+    4300002: RHand
+    4300004: RightHand
+    4300006: LHand
+    4300008: LeftHand
+    4300010: Body
+    4300012: RFoot
+    4300014: LFoot
+    6400000: Body
+    6400002: Head
+    6400004: LeftHand
+    6400006: LFoot
+    6400008: LHand
+    6400010: RFoot
+    6400012: RHand
+    6400014: RightHand
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: HBone001
+        weight: 1
+      - path: HBone001/HBone002
+        weight: 1
+      - path: HBone001/Head
+        weight: 1
+      - path: LFBone001
+        weight: 1
+      - path: LFBone001/LFBone002
+        weight: 1
+      - path: LFBone001/LFBone002/LFBone003
+        weight: 1
+      - path: LFBone001/LFBone002/LFoot
+        weight: 1
+      - path: LHBone001
+        weight: 1
+      - path: LHBone001/LeftHand
+        weight: 1
+      - path: LHBone001/LHBone002
+        weight: 1
+      - path: LHBone001/LHBone002/LHand
+        weight: 1
+      - path: LHBone001/LHBone002/LHBone003
+        weight: 1
+      - path: RFBone001
+        weight: 1
+      - path: RFBone001/RFBone002
+        weight: 1
+      - path: RFBone001/RFBone002/RFBone003
+        weight: 1
+      - path: RFBone001/RFBone002/RFoot
+        weight: 1
+      - path: RHBone001
+        weight: 1
+      - path: RHBone001/RHBone002
+        weight: 1
+      - path: RHBone001/RHBone002/RHand
+        weight: 1
+      - path: RHBone001/RHBone002/RHBone003
+        weight: 1
+      - path: RHBone001/RightHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Body
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
